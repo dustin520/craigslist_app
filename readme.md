@@ -1,6 +1,6 @@
 ## Nokogiri, regex and rspec lab with Craigslist
 
-Your task for tonight is to write a __Puppy Scraper__. Your scraper will search craigslist for all pets in the SF area and use regex to return the link (href) and text for any posting that matches the words "pup", ""puppy", "puppies" and "dog".  In addition, make sure the puppy scraper only returns results from August 12th
+Your task for tonight is to write a __Puppy Scraper__. Your scraper will search craigslist for all pets in the SF area and use regex to return the link (href) and test for any posting that matches the words "pup", ""puppy", "puppies" and "dog".  In addition, make sure the puppy scraper only returns results from August 12th
 
 ![dog_picture](http://images.craigslist.org/00P0P_hrYfqZGsteP_600x450.jpg)
 

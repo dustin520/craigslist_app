@@ -11,7 +11,7 @@ describe "scrapper" do
   end
 
   describe "filter_links" do
-    it "should here is an example of using the befor each data" do
+    it "should here is an example of using the before each data" do
       rows = @doc.css(".row")
       rows.each do |row|
         puts row.content
@@ -28,5 +28,19 @@ describe "scrapper" do
   end
 
   describe "get_todays_rows" do
+    
+
   end
 end
+
+
+
+# NOTES: In irb -
+# require 'open-uri'
+# require 'nokogiri'
+# html = open("today.html")
+# doc=Nokogiri::HTML(html)
+# rows = doc.css(".row")
+# rows.each do |row|
+#   puts row.css(".date").content
+# end
